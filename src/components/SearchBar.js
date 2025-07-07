@@ -11,14 +11,14 @@ export default function SearchBar({ onSearch }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex mb-4">
+    <form onSubmit={handleSubmit} className="flex mb-4 max-w-2xl mx-auto">
       <input
-        type="text"
-        placeholder="Enter LEGO set number or name"
-        value={query}
-        onChange={e => setQuery(e.target.value)}
-        className="flex-grow px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none"
-      />
+  type="text"
+  placeholder="Enter LEGO set number or name"
+  value={query}
+  onChange={e => setQuery(e.target.value)}
+  className="flex-grow px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none bg-white text-black placeholder-gray-400"
+/>
       <button type="submit" className="bg-legoRed text-white px-4 rounded-r-md hover:bg-red-700 transition">
         Search
       </button>
