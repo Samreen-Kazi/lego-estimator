@@ -2,7 +2,7 @@
 
 Estimate how long it will take to build a LEGO set based on the number of pieces — either by searching real LEGO sets or manually entering a number.
 
-![App Screenshot](public/lego.png) <!-- Replace with actual screenshot if needed -->
+![App Screenshot](public/lego-ss.png)
 
 ---
 
@@ -18,7 +18,7 @@ Estimate how long it will take to build a LEGO set based on the number of pieces
 
 ## 🚀 Live Demo
 
-🌐 [View the App](https://your-vercel-deployment.vercel.app)  
+🌐 [View the App](https://lego-estimator.vercel.app/)  
 > Replace this with your actual Vercel URL.
 
 ---
